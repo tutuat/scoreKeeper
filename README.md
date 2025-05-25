@@ -4,7 +4,7 @@ Un mini-projet DOM pur en HTML/CSS/JavaScript (sans framework) permettant de com
 
 ## 🚀 Démo en ligne
 
-👉 [Voir la démo](https://ton-pseudo.github.io/scoreKeeper/)  
+👉 [Voir la démo](https://tutuat.github.io/scoreKeeper/)  
 
 ## 📁 Technologies
 
