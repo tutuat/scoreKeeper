@@ -18,4 +18,20 @@ scoreMaxDisplay.textContent = scoreMax;
 scoreMaxInput.addEventListener("input", function () {
     scoreMax = this.value;
     scoreMaxDisplay.textContent = scoreMax;
-  });
+  
+});
+
+btnPlayer1.addEventListener("click", function () {
+    if (score1 < scoreMax) {
+      score1++;
+      score1Display.textContent = score1;
+    }
+});
+  
+  btnPlayer2.addEventListener("click", function () {
+    if (score2 < scoreMax) {
+      score2++;
+      score2Display.textContent = score2;
+    }
+});
+  
