@@ -34,4 +34,10 @@ btnPlayer1.addEventListener("click", function () {
       score2Display.textContent = score2;
     }
 });
-  
+
+btnReset.addEventListener("click", function () {
+    score1 = 0;
+    score2 = 0;
+    score1Display.textContent = score1;
+    score2Display.textContent = score2;
+  });
